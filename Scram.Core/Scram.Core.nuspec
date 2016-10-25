@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>P. Isaac Hildebrandt</authors>
+    <owners>PIHI Media, Ltd. Co.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>sasl scram</tags>
+    <dependencies>
+      <dependency id="StringPrep.Profile.SaslPrep" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>
