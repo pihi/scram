@@ -18,9 +18,9 @@ namespace Scram
 
     protected Hash Hash { get; }
 
-    private readonly NetworkStream _stream;
+    private readonly Stream _stream;
 
-    protected Application(NetworkStream stream, Hash hash)
+    protected Application(Stream stream, Hash hash)
     {
       _stream = stream;
       Hash = hash;

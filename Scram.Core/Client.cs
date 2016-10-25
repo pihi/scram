@@ -1,6 +1,6 @@
 ﻿using Scram.Model;
 using System;
-using System.Net.Sockets;
+using System.IO;
 using System.Text;
 
 namespace Scram
@@ -11,7 +11,7 @@ namespace Scram
     private readonly string _password;
     private readonly string _nonce;
 
-    public Client(NetworkStream stream, Hash hash, string username, string password) : base(stream, hash)
+    public Client(Stream stream, Hash hash, string username, string password) : base(stream, hash)
     {
       _username = username;
       _password = PreparationProcess.Run(password);
